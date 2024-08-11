@@ -11,7 +11,7 @@ function EmailInput() {
     const handleSendOTP = async () => {
         setLoading(true);
         try {
-            const response = await axios.post('http://localhost:5000/send-otp', { email });
+            const response = await axios.post('api-key-8lakgvj4a-rugvedkadu06s-projects.vercel.app/send-otp', { email });
             setMessage(response.data.message);
         } catch (error) {
             setMessage('Failed to send OTP. Please try again.');
