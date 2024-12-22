@@ -57,9 +57,10 @@ This project demonstrates a **Login with OTP Authentication** system. It allows 
 4. Excel file setup for database
 **Installation Steps:**
 **1. Clone the Repository**:
-   ```bash
-   git clone https://github.com/rugvedkadu06/Login-with-OTP-Authentication.git
-   cd Login-with-OTP-Authentication```
+```
+git clone https://github.com/rugvedkadu06/Login-with-OTP-Authentication.git
+cd Login-with-OTP-Authentication
+```
 **2. Frontend Setup:**
 
 Navigate to the frontend folder:
